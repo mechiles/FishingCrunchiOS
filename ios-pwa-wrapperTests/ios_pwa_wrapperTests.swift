@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ios_pwa_wrapper
+@testable import Fishing_Crunch
 
 class ios_pwa_wrapperTests: XCTestCase {
     
