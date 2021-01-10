@@ -18,6 +18,9 @@
 		2DC96ADE1FA5DD32006B5881 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC96ADD1FA5DD32006B5881 /* Constants.swift */; };
 		2E665A804F9C2D330241863B /* Pods_Fishing_CrunchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F735EB8B691C8091162B8E2 /* Pods_Fishing_CrunchTests.framework */; };
 		42ACA8CA25C5A12914A8C9A2 /* Pods_Fishing_Crunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A0FF5826E5C884A53BB6F9 /* Pods_Fishing_Crunch.framework */; };
+		6823F22525AAA19C00AE7ECE /* NativeAds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6823F22425AAA19C00AE7ECE /* NativeAds.xib */; };
+		6823F22625AAA19C00AE7ECE /* NativeAds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6823F22425AAA19C00AE7ECE /* NativeAds.xib */; };
+		6823F22725AAA19C00AE7ECE /* NativeAds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6823F22425AAA19C00AE7ECE /* NativeAds.xib */; };
 		68EEC01E25A95BAB00299E10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68EEC01D25A95BAB00299E10 /* GoogleService-Info.plist */; };
 		68EEC01F25A95BAB00299E10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68EEC01D25A95BAB00299E10 /* GoogleService-Info.plist */; };
 		68EEC02025A95BAB00299E10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68EEC01D25A95BAB00299E10 /* GoogleService-Info.plist */; };
@@ -64,6 +67,7 @@
 		45A0FF5826E5C884A53BB6F9 /* Pods_Fishing_Crunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fishing_Crunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAFF48DB8C23220115A4B06 /* Pods-Fishing Crunch-Fishing CrunchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fishing Crunch-Fishing CrunchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fishing Crunch-Fishing CrunchUITests/Pods-Fishing Crunch-Fishing CrunchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E9DD224BD25066F1A1AEC37 /* Pods-Fishing CrunchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fishing CrunchTests.release.xcconfig"; path = "Target Support Files/Pods-Fishing CrunchTests/Pods-Fishing CrunchTests.release.xcconfig"; sourceTree = "<group>"; };
+		6823F22425AAA19C00AE7ECE /* NativeAds.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAds.xib; sourceTree = "<group>"; };
 		68CD1C5425A8F17300A6E262 /* Fishing Crunch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fishing Crunch.entitlements"; sourceTree = "<group>"; };
 		68EEC01D25A95BAB00299E10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89132E86BDEC499B017349DC /* Pods-Fishing Crunch-Fishing CrunchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fishing Crunch-Fishing CrunchUITests.release.xcconfig"; path = "Target Support Files/Pods-Fishing Crunch-Fishing CrunchUITests/Pods-Fishing Crunch-Fishing CrunchUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2D504BEE1FA100E20019B279 /* AppDelegate.swift */,
+				6823F22425AAA19C00AE7ECE /* NativeAds.xib */,
 				2D504BF01FA100E20019B279 /* ViewController.swift */,
 				2D504BF21FA100E20019B279 /* Main.storyboard */,
 				2D504BF81FA100E20019B279 /* Assets.xcassets */,
@@ -300,6 +305,7 @@
 				2D504BFC1FA100E20019B279 /* LaunchScreen.storyboard in Resources */,
 				2D6EEE561FCB2FCB0054837D /* Localizable.strings in Resources */,
 				68EEC01E25A95BAB00299E10 /* GoogleService-Info.plist in Resources */,
+				6823F22525AAA19C00AE7ECE /* NativeAds.xib in Resources */,
 				2D504BF91FA100E20019B279 /* Assets.xcassets in Resources */,
 				2D504BF41FA100E20019B279 /* Main.storyboard in Resources */,
 			);
@@ -310,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EEC01F25A95BAB00299E10 /* GoogleService-Info.plist in Resources */,
+				6823F22625AAA19C00AE7ECE /* NativeAds.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EEC02025A95BAB00299E10 /* GoogleService-Info.plist in Resources */,
+				6823F22725AAA19C00AE7ECE /* NativeAds.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

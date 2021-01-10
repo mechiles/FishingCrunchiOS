@@ -6,6 +6,7 @@ target 'Fishing Crunch' do
   use_frameworks!
   pod 'Firebase/Analytics'
   pod 'Firebase/Messaging'
+  pod 'Google-Mobile-Ads-SDK'
 
   # Pods for Fishing Crunch
 

@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import Firebase
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -41,6 +42,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                   application.registerUserNotificationSettings(settings)
                 }
                 application.registerForRemoteNotifications()
+        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
 
         return true
     }
